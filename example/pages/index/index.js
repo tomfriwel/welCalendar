@@ -9,7 +9,9 @@ let calendar = new Calendar()
 
 Page({
     data: {
+        calendarData:{},
         weekItems: ['日', '一', '二', '三', '四', '五', '六'],
+        // monthItems: ['一', '二', '三', '四', '五', '六', '七', '八', '九', '十', '十一', '十二'],
         monthCount: 0,
         fisrtDay: 0,
         currentDate: 0,

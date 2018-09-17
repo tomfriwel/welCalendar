@@ -593,6 +593,7 @@ Calendar.prototype.getColor = function(ganZhi) {
  * @return string
  */
 Calendar.prototype.getWuXing = function(ganZhi) {
+    console.log(ganZhi)
     if (!ganZhi) {
         return null;
     }
